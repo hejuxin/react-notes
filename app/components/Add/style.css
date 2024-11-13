@@ -1,0 +1,18 @@
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #e7e9e8;
+
+  flex-shrink: 0;
+}
+
+.btn-add:hover {
+  border-color: #f4f5f5;
+}
