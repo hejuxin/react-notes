@@ -66,8 +66,8 @@ export default function Add() {
           alt="Collapse"
         />
       </div>
-      {
-        createPortal(
+      {/* {
+        createPortal( */}
           <div>
             <div className={`popover ${hideclass}`} ref={popoverRef} >
               <div className='popover-content'>
@@ -93,8 +93,8 @@ export default function Add() {
               </div>
             </div>
           </div>
-          , document.body)
-      }
+          {/* , document.body)
+      } */}
     </>
   )
 }

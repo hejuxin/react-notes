@@ -38,13 +38,13 @@ export default function SidebarImport() {
     }
 
     // // 重置 file input
-    // e.target.type = "text";
-    // e.target.type = "file";
+    e.target.type = "text";
+    e.target.type = "file";
   };
   return (
-    <form method="post" enctype="multipart/form-data">
+    <form method="post" encType="multipart/form-data">
       <div style={{ textAlign: "center", position: 'relative' }}>
-        <label for="file" style={{ cursor: 'pointer' }}>导入 .md 文件</label>
+        <label htmlFor="file" style={{ cursor: 'pointer' }}>导入 .md 文件</label>
         <input
           type="file"
           id="file"
